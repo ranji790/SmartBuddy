@@ -1,0 +1,25 @@
+{
+  "dbms": [
+    "database management system",
+    "database",
+    "db"
+  ],
+  "cs": [
+    "computer science",
+    "comp sci"
+  ],
+  "java": [
+    "programming",
+    "coding"
+  ],
+  "notes": [
+    "note",
+    "material",
+    "study material"
+  ],
+  "exam": [
+    "test",
+    "examination",
+    "quiz"
+  ]
+}
