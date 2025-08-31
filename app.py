@@ -647,27 +647,10 @@ class ChatBot:
         """Handle greetings and help requests"""
         message = """👋 Hello! I'm SmartBuddy, your AI-powered college assistant with offline Natural Language Processing.
 
-🤖 **My Smart NLP Features:**
-• **Synonym Recognition** - I understand "DBMS" = "Database Management System"
-• **Fuzzy Matching** - Find results even with typos or partial matches
-• **Intent Detection** - I understand what you need based on context
-• **Keyword Intelligence** - Search across all related terms automatically
 
 📚 **What I Can Help With:**
-• **Study Notes** - Ask using any keywords (e.g., "java notes", "database", "programming")
-• **Exam Information** - Get exam dates and schedules with smart search
-• **Faculty Details** - Information about teachers and professors
-• **Class Schedules** - Timetables and class information
-• **Events** - College events and activities
-• **Mental Health Tips** - Stress management and wellness advice
 
-💡 **Smart Examples:**
-- "Show me database notes" → finds DBMS materials
-- "programming exam" → finds relevant exam info
-- "when is test" → understands you mean exam
-- "teacher info" → finds faculty details
-
-Just ask naturally - my NLP will understand you!"""
+Just ask naturally"""
         return {
             'type': 'text',
             'message': message
